@@ -1,0 +1,8 @@
+*La creación de Java Script es en las etiquetas <script></script> el navegador lo va a interpretar too el codigo que se tiene ahi
+Dentro de JavaScript hay diferentes Objetos:
+**Los Objetos tiene asociados metodos que son pequeñas funciones que nosotros podemos llamar y propiedades(variables, las cuales tienen datos) 
+
+-Objeto Document:Controla todo lo que hace el documento
+-Objeto Wondow:Maneja la Ventana, los scrolls, barras de navegacion
+-Objeto Hostory: este esta bloqueado por medidas de seguridad
+
