@@ -2,7 +2,13 @@
 Dentro de JavaScript hay diferentes Objetos:
 **Los Objetos tiene asociados metodos que son pequeñas funciones que nosotros podemos llamar y propiedades(variables, las cuales tienen datos) 
 
+###   OBJETOS   ###
+-Objeto Navigator:
 -Objeto Document:Controla todo lo que hace el documento
--Objeto Wondow:Maneja la Ventana, los scrolls, barras de navegacion
--Objeto Hostory: este esta bloqueado por medidas de seguridad
+-Objeto Window:Maneja la Ventana, los scrolls, barras de navegacion [Este es el unico que se puede omitir en comparación de los demas metodos]
+-Objeto History: este esta bloqueado por medidas de seguridad
 
+Ejemplos de formas de comunicarnos:
+  document.write("Hola Mundo");
+  alert("Hola Mundo2");
+  console.log("Hola Mundo 3");[Este es para cuestiones de depuracion, solo para desarrolladores]
