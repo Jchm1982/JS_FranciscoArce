@@ -122,3 +122,87 @@ se declara con la palabra var nombre;
 -multiplicacion: *
 -division: /
 -residuo o modulo: %
+
+1.-Operador de Agrupacion ()
+2.-Operadores Multiplicativos * /
+3.-Operadores aditivos + -
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Operadores Matematicos</title>
+  <meta charset="utf-8">
+  <script>
+    var a = 7;
+    var b = 3;
+    var calculo1 = 3.5 * a + b * 10;
+    consolo.log(calculo1);
+  </script>
+</head>
+<body>
+</body>
+</html>
+
+########################## OPERADORES COMPARACION ##########################
+
+>     Mayor que
+>=    Mayor o igual que
+<     Menor que
+<=    Menor o igual que
+==    Son iguales
+!=    Son distintos
+########################## OPERADORES LOGICOS ##########################
+
+&& (AND)
+TABLA DE VERDAD (AND)
+A         B         RESULTADO
+
+v         V             V
+F         V             F
+V         F             F
+F         F             F
+
+
+|| (OR)
+TABLA DE VERDAD (OR)
+A         B         RESULTADO
+
+v         V             V
+F         V             V
+V         F             V
+F         F             F
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Operadores Logicos</title>
+  <meta charset="utf-8">
+  <script>
+      var tengoDinero = false;
+      var tengoTiempo = false;
+      
+      console-log(tengoDinero && tengoTiempo);
+      
+  </script>
+</head>
+<body>
+</body>
+</html>
+
+########################## OPERADORES UNARIOS O ATAJOS SHORCUTS ##########################
+
+a = a + 10  ---  a += 10
+a = a - 10  ---  a -= 10
+a = a * 10  ---  a *= 10
+a = a / 10  ---  a /= 10
+a = a + 1  ---  a++
+a = a - 1  ---  a--
+
+########################## PALABRAS RESERVADAS ##########################
+
+long - native - new - null
+package - private - protected - public
+return - short - static - super
+switch - synchronized - this - throw
+throws - transient - true - try
+var - val - while - with
