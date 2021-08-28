@@ -12,3 +12,102 @@ Ejemplos de formas de comunicarnos:
   document.write("Hola Mundo");
   alert("Hola Mundo2");
   console.log("Hola Mundo 3");[Este es para cuestiones de depuracion, solo para desarrolladores]
+
+## ARCHIVOS EXTERNOS ##
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Llamar a un archivo externo de JS</title>
+  <meta charset="utf-8">
+  <script src="js/saludo.js"></script> ---> Para este caso el archivo que se crea debe de estar en la misma carpeta qie el archivo index.
+</head>
+
+<body>
+</body>
+
+</html>
+
+########################## VARIABLES ##########################
+para sacar informacion GET
+para poder informacion SET
+
+El tipo de dato es al que corresponde ese dato, cuando se asigna un dato es con el sigo " = "
+se declara con la palabra var nombre;
+
+########################## VARIABLES BASICAS O PRIMITVAS ##########################
+-Variables de Cadena
+-Variables de NUmericas
+-Variables de booleanas
+########## VARIABLES COMPUESTOS
+-Variables Arreglos
+-Variables Objetos
+########## VARIABLES ESPECIALES
+-NULL
+-undefined
+
+*********Variables Tipo NUmerico
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Tipo Nuemerico</title>
+  <meta charset="utf-8">
+  <script>
+    var edad = 80;
+    var calificacion = -10;
+    var costo = 20.20;
+    var descuento =-5.6;
+    //OCTALES
+    var octal = 0546377;
+    alert(octal);
+    //hexadecimal 0-9 y a-f
+    var rojo = 0xff;
+    alert(rojo);
+    console.log(rojo);
+  </script>
+</head>
+<body>
+</body>
+</html>
+
+*********Variables Tipo Cadena
+***SECUENCIAS DE ESCAPE DE JAVASCRIPT
+\b carácter anterior
+\f salto de página
+\n salto de linea
+\r retorno de carro
+\t tabulador
+\\ caracter
+\' comilla simple
+\" comilla doble
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Tipo Cadena </title>
+  <meta charset="utf-8">
+  <script>
+    var saludo = "Hola desde JavScript";
+    var despedida = "Hasta pront, amigos";
+    var refran = "Haz el 'bien' \nsin mirar a quien";
+  </script>
+</head>
+<body>
+</body>
+</html>
+
+*********Variables Tipo Booleanos
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Tipo Booleano</title>
+  <meta charset="utf-8">
+  <script>
+    var saludo = "Hola desde JavScript";
+    var despedida = "Hasta pront, amigos";
+    var refran = "Haz el 'bien' \nsin mirar a quien";
+  </script>
+</head>
+<body>
+</body>
+</html>
