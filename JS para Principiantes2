@@ -1,0 +1,147 @@
+######################## SENTENCIAS CONDICIONALES ########################
+
+---- if
+if(){
+  //INSTRUCCIONES
+}
+
+---- EJEMPLO ---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Condicionales</title>
+  <script>
+    var edad = prompt("¿Cual es tu edad?");
+      if(edad > 18) alert("Bienvenido a nuestra página");
+  </script>
+</head>
+	<body>
+	</body>
+</html>
+
+---- if con Else
+
+if(){
+  //INSTRUCCIONES
+}else{
+  //Instrucciones
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Condicionales</title>
+  <script>
+    var edad = prompt("¿Cual es tu edad?");
+      if(edad > 18){
+          alert("Bienvenido a nuestra página");
+       }else{
+          alert("Lo sentimos, no tienes acceso a la página");
+       }
+  </script>
+</head>
+	<body>
+	</body>
+</html>
+
+---- if con Else Anidadas
+
+
+---- SWITCH
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Condicional Switch</title>
+  <script>
+    var estadoCivil = "Soltero";
+    var mensaje = "Lo invitamos a un viaje a Chiapas";
+    var mensaje2 = "";
+    switch(estadoCivil){
+        case "soltero":
+        mensaje2 = "donde podrás conocer a más personas solteras";
+        break;
+        
+        case "casado":
+        mensaje2 = "donde podrás disfrutar de la familia";
+        break;
+        
+        case "divorciado":
+        mensaje2 = "donde podrás olvidar tus penas";
+        break;
+        
+        case "viudo":
+        mensaje2 = "donde podrás recordar tus mejores tiempos";
+        break;
+        
+        case "arrejuntado":
+        mensaje2 = "donde podrás tomar esa importante desicion";
+        break;
+        
+        defaul:
+        mensaje2 = "donde podrás definir tu situacion personal";
+        break;
+    
+    }
+    var mensaje3 = " en una extraordinaria experiencia en la naturaleza";
+    document.write(mensaje+mensaje2+mensaje3);
+    
+  </script>
+</head>
+	<body>
+	</body>
+</html>
+
+---- SWITCH con break
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Condicional Switch</title>
+  <script>
+    var estadoCivil = prompt("¿Cuál es tu estado civil?");
+    var mensaje = "Lo invitamos a un viaje a Chiapas";
+    var mensaje2 = "";
+    switch(estadoCivil){
+        case "soltero":
+        case "soltera":
+        mensaje2 = "donde podrás conocer a más personas solteras";
+        break;
+        
+        case "casado":
+        case "casada":
+        mensaje2 = "donde podrás disfrutar de la familia";
+        break;
+        
+        case "divorciado":
+        case "divorciada":
+        case "separado":
+        case "separada":
+        mensaje2 = "donde podrás olvidar tus penas";
+        break;
+        
+        case "viudo":
+        case "viuda":
+        case "abandonado":
+        case "abandonada":
+        mensaje2 = "donde podrás recordar tus mejores tiempos";
+        break;
+        
+        case "arrejuntado":
+        mensaje2 = "donde podrás tomar esa importante desicion";
+        break;
+        
+        defaul:
+        mensaje2 = "donde podrás definir tu situacion personal";
+    }
+    var mensaje3 = " en una extraordinaria experiencia en la naturaleza";
+    document.write(mensaje+mensaje2+mensaje3);
+    
+  </script>
+</head>
+	<body>
+	</body>
+</html>
