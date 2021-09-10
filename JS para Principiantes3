@@ -1,0 +1,72 @@
+*************** CICLOS  ***************
+
+-----------WHILE Primero preguntamos y luego disparamos
+    <!DOCTYPE html>
+      <html lang="es">
+      <head>
+        <meta charset="utf-8">
+        <title>Ciclo WHILE</title>
+        <script>
+          //VALOR INICIAL
+          var i = 0;
+          while(i<10){
+            document.write(i+"<br>");
+            //INCREMENTO O DECREMENTO
+            i++;
+          }
+          document.write("Salida : "+i+"<br>");
+        </script>
+      <body>
+
+      </body>
+      </html>
+
+
+-----------DO WHILE Primero disparamos y luego preguntamos
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <title>Ciclo DO..  WHILE</title>
+  <script>
+  	var clave ="";
+  	var i = 0;
+  	do{
+  		clave = prompt("Escribe tu clave de acceso");
+  		i++;
+  		if (i>3) {
+  			alert("Lo sentimos, no tiene acceso al sistema");
+  			break;
+  		}
+  	}while(clave!="007")
+  	if (clave== "007") {
+  		document.write("Bienvenido Agente 007");
+  	}
+  	
+  </script>
+<body>
+ 
+</body>
+</html>
+
+-----------FOR() Sabemos el numero de iteraciones
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <title>Ciclo | FOR()</title>
+  <script>
+  	for(var i=0;i < 10; i++){
+  		document.write(i+"<br>");
+  	}
+  	document.write("Valor de i al final del cliclo: "+i+"<br>");
+  </script>
+<body>
+ 
+</body>
+</html>
+
+
+----------- FOR (IN),objetos y arreglos
