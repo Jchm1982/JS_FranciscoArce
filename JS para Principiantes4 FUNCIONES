@@ -1,1 +1,46 @@
 FUNCIONES EN JAVASCRIPT
+Permite dividir el codigo en partes mas manejables
+Ejemplo de una FUNCION:
+
+<!doctype html>
+<html>
+    <head>
+    	<title>Funciones</title>
+        <meta charset="utf-8">
+        <script>
+        	function saludo(){
+        		//alert("Hola desde Javascipt");
+        		document.write("Hola desde Javascipt<br>");
+        	}
+        	//Invocamos
+        	saludo();
+        	saludo();
+        	saludo();
+        </script>
+    </head>
+    <body>
+        <script src="js/main.js"></script>
+    </body>
+</html>
+
+EJEMPLO DE FUNCION CON PARAMETROS:
+
+<!doctype html>
+<html>
+    <head>
+    	<title>Funciones | Parametros</title>
+        <meta charset="utf-8">
+        <script>
+        	function saludo (nombre,mensaje){
+        		document.write("Hola "+nombre+"desde JavaScript"+mensaje+"<br>");
+        	}
+        	var nombre = prompt("Dame tu nombre:");
+        	var mensaje = ", espero que te encuentres muy bien.";
+        	//Lamarlo
+        	saludo(nombre,mensaje);
+        </script>
+    </head>
+    <body>
+        <script src="js/main.js"></script>
+    </body>
+</html>
